@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 50px 220px;
+    background-color: #fff;
+    height: 600px;
+    width: 700px;
+    border: 1px solid rgb(109, 107, 107);
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -49px;
+    left: 131px;
+    background: red;
+}
+
+.youtubeLogo {
+    cursor: pointer;
+    width: 140px;
+    height: 95px;
+    background-color: red;
+    border-radius: 23px;
+}
+
+.youtubeLogo span:hover {
+    cursor: pointer;
+    background-color: rgb(68, 29, 29);
+    color: red;
+}
+
+.youtubeLogo span::after {
+    content: '';
+    font-size: 20px;
+    display: grid;
+    place-items: center;
+    padding: 20px 20px;
+    position: absolute;
+    left: 20px;
+}
+
+span {
+    display: grid;
+    place-items: center;
+    padding: 37px;
+    font-size: 20px;
+    color: #fff;
+}
